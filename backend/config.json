@@ -1,0 +1,25 @@
+{
+    "gesture": {
+        "frame_skip": 3,
+        "movement_threshold": 0.12,
+        "cooldown": 0.8,
+        "resolution": [
+            640,
+            480
+        ]
+    },
+    "voice": {
+        "energy_threshold": 300,
+        "pause_threshold": 0.6,
+        "phrase_time_limit": 2.5,
+        "commands": {
+            "next slide": "right",
+            "previous slide": "left",
+            "start presentation": "f5",
+            "stop presentation": "esc",
+            "home slide": "home",
+            "last slide": "end",
+            "full screen": "f11"
+        }
+    }
+}
